@@ -1,8 +1,6 @@
-FROM scratch
+FROM debian
 
 LABEL maintainer="Shi YunJin"
-
-ADD rootfs.tar.xz /
 
 RUN \
 	apt-get update && \
